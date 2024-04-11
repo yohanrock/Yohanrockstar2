@@ -12,6 +12,15 @@
     body {
       margin: 0px
     }
+     img {
+      position: absolute;
+      top: 25px;
+      left: 25px;
+   }
+
+  .imgA1 {
+  z-index: 1;
+  }
 
     .jwplayer {
       position: absolute !important
@@ -26,6 +35,7 @@
 
 <body>
   <div id="jwplayerDiv"></div>
+  <img class="imgA1" src="https://i.postimg.cc/3x59w8B3/image1.png">
   <script type="text/javascript">
     jwplayer("jwplayerDiv").setup({
       file: "https://linear014-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_720_30/Live/channel(skysportscricket)/manifest_720.mpd", position: 'bottom',
